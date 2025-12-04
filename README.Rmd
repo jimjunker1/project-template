@@ -17,20 +17,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: end -->
 
-The goal of project-website-template is to ...
+The goal of project-template is to make it easy to create a new project with a website to allow for tutorials, project logs, protocols, etc. This template can be used for new projects to standardize project structure.
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+The template is build around a Quarto website to allow github pages to be source from `docs/`. The Quarto website is configured in the `_quarto.yml` file with the `output-dir: docs` command.
 
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub.
+The layout of the website is also set in the `quarto.yml` document. Website structure and additional pages can be added by modifying this file.
